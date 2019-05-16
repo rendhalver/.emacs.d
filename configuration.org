@@ -1366,3 +1366,13 @@ started with Org mode" [[https://www.youtube.com/watch?v%3DSzA2YODtgK4][talk]].
        (setq web-mode-indent-style 2)
        (setq web-mode-block-padding 2))
    #+END_SRC
+
+ * Groovy-mode
+
+  We use Jenkins a lot.
+  This loads up the packages required to deal with the groovy in Jenkinsfiles
+
+   #+BEGIN_SRC emacs-lisp
+     (use-package groovy-mode
+       :ensure t)
+   #+END_SRC
