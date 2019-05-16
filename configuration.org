@@ -1376,3 +1376,13 @@ started with Org mode" [[https://www.youtube.com/watch?v%3DSzA2YODtgK4][talk]].
      (use-package groovy-mode
        :ensure t)
    #+END_SRC
+
+ * puppet-mode
+
+  We use Puppet a lot.
+  This loads up the packages required to edit puppet code nicely
+
+   #+BEGIN_SRC emacs-lisp
+     (use-package puppet-mode
+       :ensure t)
+   #+END_SRC
